@@ -7,7 +7,7 @@ All datasets used for experiments can be downloaded in /datasets folder. Overvie
 
 | **Task** | **Data Size** | **# Problem Types** | **Metrics** | **Answer Type** | **Text Sources** |
 |----------|---------------|---------------------|-------------|-----------------|------------------|
-| | | | | | **Foundational Temporal Understanding Tasks** |
+| &nbsp;  | &nbsp;  | &nbsp;  | &nbsp;  | &nbsp;  | **Foundational Temporal Understanding Tasks** |
 | Ordering | 29,462 | 2 | Acc. | 3-Way MC | MCTACO<sup>[1]</sup>, Wikipedia, Misc. |
 | Frequency | 4,658 | 6 | Acc. | 3-Way MC | MCTACO<sup>[1]</sup>, SQuAD<sup>[2]</sup>, Misc. |
 | Duration | 7,232 | 7 | Acc. | 3-Way MC | Same |
