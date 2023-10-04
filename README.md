@@ -6,7 +6,7 @@ TRAM encompasses ten temporal reasoning tasks, presented as multiple-choice ques
 All datasets used for experiments can be downloaded in /datasets folder. Overview of ten tasks included in the benchmark:
 
 <div align="center">
-    <img width="75%" alt="image" src="https://github.com/EternityYW/TRAM-Benchmark/blob/main/image_sources/dataset_set.png">
+    <img width="95%" alt="image" src="https://github.com/EternityYW/TRAM-Benchmark/blob/main/image_sources/dataset_set.png">
 </div>
 
 <sub>[1] Zhou et al., 2019(https://aclanthology.org/D19-1332/), [2] Rajpurkar et al., 2016 (https://aclanthology.org/D16-1264/), [3] Uzzaman et al., 2013 (https://aclanthology.org/S13-2001/), [4] Williams et al., 2018 (https://aclanthology.org/N18-1101/), [5] Bowman et al., 2015 (https://aclanthology.org/D15-1075/), [6] Roemmele et al., 2011 (https://aaai.org/papers/02418-choice-of-plausible-alternatives-an-evaluation-of-commonsense-causal-reasoning/), [7] Mostafazadeh et al., 2016 (https://aclanthology.org/N16-1098/), [8] Mostafazadeh et al., 2017 (https://aclanthology.org/W17-0906/)</sub>
