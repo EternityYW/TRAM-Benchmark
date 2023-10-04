@@ -5,21 +5,9 @@ This repository contains datasets and model descriptions used for [TRAM: Benchma
 TRAM encompasses ten temporal reasoning tasks, presented as multiple-choice questions (MCQs) across a range of time-related domains. For clarity, we ensure that each question has only one correct answer. TRAM incorporates existing natural language understanding datasets, human-crafted templates and questions, web sources, and program generation. Answers have been derived through a combination of expert annotations and programmatic generation. The benchmark includes **526,068** problems in total. For each dataset, we introduce a few-shot development set, with 5 questions per category, and a separate test set for evaluation. 
 All datasets used for experiments can be downloaded in /datasets folder. Overview of ten tasks included in the benchmark:
 
-| **Task** | **Data Size** | **# Problem Types** | **Metrics** | **Answer Type** | **Text Sources** |
-|----------|---------------|---------------------|-------------|-----------------|------------------|
-| &nbsp;  | &nbsp;  | &nbsp;  | &nbsp;  | &nbsp;  | **Foundational Temporal Understanding Tasks** |
-| Ordering | 29,462 | 2 | Acc. | 3-Way MC | MCTACO<sup>[1]</sup>, Wikipedia, Misc. |
-| Frequency | 4,658 | 6 | Acc. | 3-Way MC | MCTACO<sup>[1]</sup>, SQuAD<sup>[2]</sup>, Misc. |
-| Duration | 7,232 | 7 | Acc. | 3-Way MC | Same |
-| Typical Time | 13,018 | 4 | Acc.| 3-Way MC | Same |
-| | | | | | **Temporal Interpretation and Computation Tasks** |
-| Amb. Res. | 3,649 | 5 | Acc. | 3-Way MC | Misc. |
-| Arithmetic | 15,629 | 9 | Acc. | 4-Way MC | Same |
-| | | | | | **Advanced Temporal and Conceptual Understanding Tasks** |
-| Relation | 102,462 | 1 | Acc./F1 | 3-Way MC | TempEval-3<sup>[3]</sup> |
-| Temporal NLI | 282,144 | 1 | Acc./F1 | 3-Way MC | MNLI<sup>[4]</sup>, SNLI<sup>[5]</sup> |
-| Causality | 600 | 2 | Acc. | 2-Way MC | COPA<sup>[6]</sup>, Misc. |
-| Storytelling | 67,214 | 1 | Acc. | 2-Way MC | ROC<sup>[7]</sup>, SCT<sup>[8]</sup> |
+<div align="center">
+    <img width="75%" alt="image" src="https://github.com/EternityYW/TRAM-Benchmark/blob/main/image_sources/dataset_set.png">
+</div>
 
 <sub>[1] Zhou et al., 2019(https://aclanthology.org/D19-1332/), [2] Rajpurkar et al., 2016 (https://aclanthology.org/D16-1264/), [3] Uzzaman et al., 2013 (https://aclanthology.org/S13-2001/), [4] Williams et al., 2018 (https://aclanthology.org/N18-1101/), [5] Bowman et al., 2015 (https://aclanthology.org/D15-1075/), [6] Roemmele et al., 2011 (https://aaai.org/papers/02418-choice-of-plausible-alternatives-an-evaluation-of-commonsense-causal-reasoning/), [7] Mostafazadeh et al., 2016 (https://aclanthology.org/N16-1098/), [8] Mostafazadeh et al., 2017 (https://aclanthology.org/W17-0906/)</sub>
 
