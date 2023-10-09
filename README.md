@@ -17,7 +17,7 @@ For more details, please refer to the paper.
 
 ## Models
 We evaluate the performance of several well-known language models on the TRAM benchmark, which is organized into two main categories.
-In the first category, we consider four popular large language models (LLMs): the open-source models [Llama-2-13b-chat](https://arxiv.org/pdf/2307.09288.pdf) and [Vicuna-13b-v1.1](https://lmsys.org/blog/2023-03-30-vicuna/), and the closed-source models [PaLM-bison-chat](https://arxiv.org/pdf/2305.10403.pdf), GPT-3.5-turbo, and [GPT-4](https://arxiv.org/pdf/2303.08774.pdf).
+In the first category, we consider four popular large language models (LLMs): the open-source model [Llama-2-13b-chat](https://arxiv.org/pdf/2307.09288.pdf), and the closed-source models [PaLM-bison-chat](https://arxiv.org/pdf/2305.10403.pdf), GPT-3.5-turbo, and [GPT-4](https://arxiv.org/pdf/2303.08774.pdf).
 We evaluate each model using two prompting strategies: standard prompting (SP) and chain-of-thought (CoT) prompting. Under both strategies, the models undergo tests in zero-shot and 5-shot settings.
 For all models, we apply greedy decoding (i.e., temperature = 0) for response generation. Each of these models is accessed using its corresponding API key.
 
