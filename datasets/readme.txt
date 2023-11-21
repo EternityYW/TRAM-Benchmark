@@ -48,7 +48,7 @@ The majority of tasks employ accuracy as the evaluation metric due to their stra
 ===========
 DATA CONSTRUCTION
 ===========
-TRAM incorporates existing natural language understanding datasets, human-crafted templates and questions, web sources, and program generation, comprising a total of 526.1k questions. Answers have been derived through a combination of expert annotations and programmatic generation.
+TRAM incorporates existing natural language understanding datasets, human-crafted templates and questions, web sources, and program generation, comprising a total of 526.7k questions. Answers have been derived through a combination of expert annotations and programmatic generation.
 Please refer to Appendix A of the paper for the detailed data construction process.
 
       
