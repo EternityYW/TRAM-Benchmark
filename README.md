@@ -1,8 +1,8 @@
 # TRAM: Benchmarking Temporal Reasoning for Large Language Models
-This repository contains datasets and model descriptions used for [TRAM: Benchmarking Temporal Reasoning for Large Language Models](https://arxiv.org/abs/2310.00835).
+This repository contains datasets, data processing code, model descriptions, and a datasheet for the benchmark used for 'TRAM: Benchmarking Temporal Reasoning in Large Language Models'.
 
 ## Datasets
-TRAM encompasses ten temporal reasoning tasks, presented as multiple-choice questions (MCQs) across a range of time-related domains. For clarity, we ensure that each question has only one correct answer. TRAM incorporates existing natural language understanding datasets, human-crafted templates and questions, web sources, and program generation. Answers have been derived through a combination of expert annotations and programmatic generation. The benchmark includes **526,068** problems in total. For each dataset, we introduce a few-shot development set, with 5 questions per category, and a separate test set for evaluation. 
+TRAM encompasses ten temporal reasoning tasks, presented as multiple-choice questions (MCQs) across a range of time-related domains. For clarity, we ensure that each question has only one correct answer. TRAM incorporates existing natural language understanding datasets, human-crafted templates and questions, web sources, and program generation. Answers have been derived through a combination of expert annotations and programmatic generation. The benchmark includes **526,668** problems in total. For each dataset, we introduce a few-shot development set, with 5 questions per category, and a separate test set for evaluation. 
 All datasets used for experiments can be downloaded in /datasets folder. Overview of ten tasks included in the benchmark:
 
 <div align="center">
