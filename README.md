@@ -3,7 +3,7 @@ This repository contains datasets, data processing code, model descriptions, and
 
 ## Datasets
 TRAM encompasses ten temporal reasoning tasks, presented as multiple-choice questions (MCQs) across a range of time-related domains. For clarity, we ensure that each question has only one correct answer. TRAM incorporates existing natural language understanding datasets, human-crafted templates and questions, web sources, and program generation. Answers have been derived through a combination of expert annotations and programmatic generation. The benchmark includes **526,668** problems in total. For each dataset, we introduce a few-shot development set, with 5 questions per category, and a separate test set for evaluation. 
-All datasets used for experiments can be downloaded in /datasets folder. Overview of ten tasks included in the benchmark:
+All datasets used for experiments can be downloaded in [./datasets](./datasets/)" folder. Overview of ten tasks included in the benchmark:
 
 <div align="center">
     <img width="95%" alt="image" src="https://github.com/EternityYW/TRAM-Benchmark/blob/main/image_sources/dataset_set.png">
